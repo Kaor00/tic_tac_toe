@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    include ./components/head.pug
+    body
+        .modal_enter
+                h1 Крестики Нолики
+                input(id="name" type="text" required, placeholder="введите своё имя") 
+                button#start Создать игру
+                button#joinGame  Присоедениться
+                button#bestPlayer Лучшие игроки
+                button#ext Выход

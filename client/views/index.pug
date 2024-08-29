@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    include ./components/headGame.pug
+    body
+        .container_game 
+            .wrap_content
+                .nav 
+                    p.hello Добро пожаловать, 
+                .message поиск..
+                .board
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                    .cell 
+                .end_modal 
+                    h2.finishTitle 
+            .side 
+                button#ext выход
+                button#capitulation.hidden сдаться
+                button#restartGame.hidden заново
